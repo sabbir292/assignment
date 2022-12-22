@@ -1,0 +1,1000 @@
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('/ITC-Avant-Garde-Gothic/');
+  }
+
+
+  .body{
+    width: 360px;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ITC Avant Garde Gothic Std';
+  }
+
+  h1,h2,h3{
+    margin: 0;
+    padding: 0;
+  }
+  .main{
+    position: relative;
+    width: 360px;
+    height: 750px;
+    /* border: 2px solid red; */
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+  }
+
+  /* .navbar{
+    border: 1px solid green;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+  } */
+
+  .bar-container{
+    position: absolute;
+    left: 16px;
+    top: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+  .first-line{
+    width: 17.33px;
+    height: 2px;
+    background: #222222;
+  }
+
+  .second-line{
+    margin-left: 6px;
+    width: 12.33px;
+    height: 2px;
+    background: #222222;
+  }
+
+
+  .logo-container{
+    position: absolute;
+    top: 5px;
+    left: 116px;
+    width: 100px;
+    height: 18px;
+  }
+
+  .logo-container span{
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 104% */
+    text-transform: uppercase;
+    color: #222222;
+  }
+  .gear img{
+    height: 11px;
+  }
+
+
+  .link-container{
+    position: absolute;
+    top: 12px;
+    left: 259px;
+    width: 83px;
+    height: 13px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+  }
+  .getintouch{
+    margin: 0;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: capitalize;
+    letter-spacing: -0.03em;
+    color: #222222;
+}
+
+.underline{
+  position: absolute;
+  height: 0px;
+  display: inline-block;
+  width: 78px;
+  border-bottom: 0.5px solid black;
+  right: 16px;
+  top: 26px;
+}
+
+.main-bg{
+  background: url(./images/mainbg.png);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  margin: 34px
+}
+
+.main-text{
+  position: absolute;
+  width: 174px;
+  height: 116px;
+  left: 46px;
+  top: 5px;
+  font-family: 'ITC Avant Garde Gothic Std';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 141px;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  /* border: 1px solid #000000; */
+}
+
+.maintext2{
+  left: 46px;
+  top: 28px;
+  
+}
+
+
+.experience{
+  position: absolute;
+  width: 198px;
+  height: 104px;
+  left: 76px;
+  top: 200px;
+  /* border: 1px solid blue; */
+}
+
+
+.text1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 155px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  font-family: 'ITC Avant Garde Gothic Std';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4px;
+  line-height: 2px;
+  letter-spacing: -0.02em;
+  color: #EC2232;
+}
+.text2{
+  position: absolute;
+  width: 639px;
+  height: 170px;
+  left: 0;
+  top: 6px;
+  font-family: 'ITC Avant Garde Gothic Std';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 13px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+.text3{
+  position: absolute;
+  width: 80px;
+  height: 101px;
+  left: 117px;
+  top: 36px;
+  font-family: 'ITC Avant Garde Gothic Std';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 4px;
+  line-height: 5px;
+  color: #000000;
+
+}
+
+.years{
+  position: absolute;
+  width: 259px;
+  height: 112px;
+  left: 0;
+  bottom: 0;
+}
+
+.years img{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 197px;
+}
+
+
+.profile{
+  position: absolute;
+    width: 360px;
+    height: 185px;
+    left: 0px;
+    top: 332px;
+    /* background: #F9F9F9; */
+    /* border: 1px solid purple; */
+  }
+  
+  .gear-right{
+    background: url(./images/gear-right.png);
+    background-size: cover;
+    background-position: center;
+    height: 127px;
+    position: absolute;
+    width: 170px;
+    right: 0;
+    top: 0px;
+  }
+  
+  .gear-left{
+    background: url(./images/gear-left.png);
+    background-size: cover;
+    background-position: center;
+    height: 127px;
+    position: absolute;
+    width: 182px;
+    left: 0;
+    bottom: 0px;
+    }
+  
+  .profile-t1{
+    position: absolute;
+    width: 187px;
+    height: 18px;
+    left: 75px;
+    top: 21px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5px;
+    line-height: 0px;
+    letter-spacing: -0.02em;
+    color: #EC2232;
+}
+  
+
+  .profile-t2{
+    position: absolute;
+    width: 904px;
+    height: 170px;
+    left: 75px;
+    top: 34px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #222222;
+  }
+
+.profile-overlap{
+  position: absolute;
+  width: 360px;
+  height: 165px;
+  left: 0px;
+  top: 85px;
+  /* background: #F9F9F9; */
+  /* border: 1px solid rgba(214, 41, 10, 0.781); */
+}
+
+  .profile1{
+    background: url(./images/profile1.png);
+    background-size: 128px;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 70px;
+    height: 125px;
+    left: 74px;
+    top: 20px;
+}
+
+  .profile2{
+    background: url(./images/profile2.png);
+    background-size: 128px;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 70px;
+    height: 125px;
+    left: 151px;
+    top: 20px;
+  }
+  .profile3{
+    background: url(./images/profile3.png);
+    background-size: 128px;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 70px;
+    height: 125px;
+    left: 228px;
+    top: 20px;
+  }
+  .profile4{
+    background: url(./images/profile4.png);
+    background-size: 128px;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 77px;
+    height: 125px;
+    left: 277px;
+    top: 20px;
+  }
+
+  .industry-we-serve{
+    /* border: 2px solid rgb(122, 228, 23); */
+    position: absolute;
+    width: 85%;
+    height: 187px;
+    left: 23px;
+    top: 580px;
+  }
+  .industry-main-text:first-child{
+    position: absolute;
+    width: 160px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .industry-text{
+    /* border: 2px solid black; */
+    height: 81px;
+    width: 100%;
+  }
+
+  .industry-secondary-text{
+    position: absolute;
+    width: 133px;
+    height: 10px;
+    left: 0px;
+    top: 76px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 6px;
+    line-height: 5px;
+    color: #9198A0;
+  }
+  
+  .industry-text2-3{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    width: 160px;
+    height: 16px;
+    left: 0px;
+    top: 14px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: white;
+    letter-spacing: -0.02em;
+  }
+  .industry-text1{
+    position: absolute;
+    width: 743px;
+    height: 85px;
+    left: 0px;
+    top: 22px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.2px;
+  }
+  .ind-text-3{
+    top: 2px;
+    
+  }
+
+  .industry-details{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2,1fr);
+  }
+/* ----------------------------- */
+  .first-industry{
+    display: flex;
+  }
+  .number{
+    font-size: 7px;
+  }
+
+  .ind-logo1{
+    background: url(./images/logo1.png);
+    background-size: 20px;
+    height: 19px;
+    width: 101px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .name{
+    font-weight: 500;
+    font-size: 11px;
+  }
+
+  .description{
+    font-size: 6px;
+  }
+  /* ------------------------------ */
+/* ----------------------------- */
+  .first-industry{
+    display: flex;
+  }
+  .number{
+    font-size: 7px;
+  }
+
+  .ind-logo2{
+    background: url(./images/logo\ 2.png);
+    background-size: 20px;
+    height: 19px;
+    width: 101px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .name{
+    font-weight: 500;
+    font-size: 11px;
+  }
+
+  .description{
+    font-size: 6px;
+  }
+  /* ------------------------------ */
+/* ----------------------------- */
+  .first-industry{
+    display: flex;
+  }
+  .number{
+    font-size: 7px;
+  }
+
+  .ind-logo3{
+    background: url(./images/logo1.png);
+    background-size: 20px;
+    height: 19px;
+    width: 101px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .name{
+    font-weight: 500;
+    font-size: 11px;
+  }
+
+  .description{
+    font-size: 6px;
+  }
+  /* ------------------------------ */
+/* ----------------------------- */
+  .first-industry{
+    display: flex;
+  }
+  .number{
+    font-size: 7px;
+  }
+
+  .ind-logo4{
+    background: url(./images/logo\ 2.png);
+    background-size: 20px;
+    height: 19px;
+    width: 101px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .name{
+    font-weight: 500;
+    font-size: 11px;
+  }
+
+  .description{
+    font-size: 6px;
+  }
+  /* ------------------------------ */
+/* ----------------------------- */
+  .first-industry{
+    display: flex;
+  }
+  .number{
+    font-size: 7px;
+  }
+
+  .ind-logo5{
+    background: url(./images/logo3.png);
+    background-size: 20px;
+    height: 19px;
+    width: 101px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .name{
+    font-weight: 500;
+    font-size: 11px;
+  }
+
+  .description{
+    font-size: 6px;
+  }
+  /* ------------------------------ */
+/* ----------------------------- */
+  .first-industry{
+    display: flex;
+  }
+  .number{
+    font-size: 7px;
+  }
+
+  .ind-logo5{
+    background: url(./images/logo4.png);
+    background-size: 20px;
+    height: 19px;
+    width: 101px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .name{
+    font-weight: 500;
+    font-size: 11px;
+  }
+
+  .description{
+    font-size: 6px;
+  }
+  /* ------------------------------ */
+/* ----------------------------- */
+  .first-industry{
+    display: flex;
+  }
+  .number{
+    font-size: 7px;
+  }
+
+  .ind-logo6{
+    background: url(./images/logo6.png);
+    background-size: 20px;
+    height: 19px;
+    width: 101px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+
+  .name{
+    font-weight: 500;
+    font-size: 11px;
+  }
+
+  .description{
+    font-size: 6px;
+  }
+  /* ------------------------------ */
+
+  /* Macihine and Infra */
+
+  .machine-infra{
+    background: url(./images/machine&infra-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid orange; */
+    position: absolute;
+    top: 792px;
+    width: 100%;
+    height: 200px;
+  }
+.mi-texts-logos{
+  width: 51%;
+  position: absolute;
+  left: 36px;
+  top: 34px;
+}
+  .mi-first-text{
+    position: absolute;
+    width: 82px;
+    height: 11px;
+    left: px;
+    top: px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    /* line-height: 18px; */
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  .mi-second-text{
+    position: absolute;
+    width: 187px;
+    height: 18px;
+    left: 0px;
+    top: 14px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  .mi-third-text{
+    position: absolute;
+    width: 187px;
+    height: 18px;
+    left: 0px;
+    top: 49px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    /* line-height: 18px; */
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  
+  .mi-logos{
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 81px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .mi-logo-one{
+    background: url(./images/mi-logo-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+  }
+  .mi-logo-main-text{
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.1214px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin: 2px 0;
+  }
+  .mi-logo-secondary-text{
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.1214px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+
+  /* clients */
+
+  .clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid green; */
+    position: absolute;
+    top: 1007px;
+    width: 100%;
+    height: 97px;
+    gap: 10px;
+  }
+
+  .client-heading{
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #E82232;
+  }
+
+
+  .client-first-row{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 10px;
+  }
+  .client-second-row{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+  
+  .client-one{
+    background: url(./images/client1.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 9px;
+    width: 50px;
+  }
+
+
+  /* -----------contact us-------------- */
+
+  .contact-us{
+    /* border: 1px solid orange; */
+    position: absolute;
+    top: 1106px;
+    width: 100%;
+    height: 161px;
+    display: flex;
+  }
+  .form-container{
+    width: 50%;
+    height: 100%;
+    background: #0E3466;
+    padding-left: 10px;
+    box-sizing: border-box;
+    padding-top: 10px;
+  }
+
+  .form-heading{
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  }
+  .form-underline{
+    width: 52px;
+    height: 2px;
+    background: #FFFFFF;
+    margin: 3px 0;
+  }
+  .user{
+    position: absolute;
+  }
+  .user>img{
+    height: 15px;
+    padding: 4px;
+  }
+  .form-parent>input{
+    padding-left: 23px;
+    width: 98px;
+  }
+
+  /* Map container */
+
+  .map-container{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    background: url(./images/map.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 32%;
+    height: 76%;
+    padding: 23px;
+    box-sizing: border-box;
+  }
+
+
+  .map-overlap{
+    position: absolute;
+    width: 22%;
+    height: 135px;
+    left: 162px;
+    top: 14px;
+    background: #FFFFFF;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+
+  .reg-office{
+    font-family: 'AvertaStd-Regular';
+    font-size: 8px;
+    line-height: 12px;
+    letter-spacing: 0.03em;
+    color: #192437;
+}
+
+  .office-address{
+    letter-spacing: 0.03em;
+    color: #192437;
+    font-family: 'AvertaStd-Light';
+    font-size: 5px;
+    line-height: 4px;
+  }
+
+  .underline-one{
+    height: 1px;
+    margin: 6px 0px;
+    background: #C4C4C4;
+    width: 100%;
+  }
+  .call-us{
+    font-family: 'AvertaStd-Regular';
+    font-size: 7px;
+    line-height: 12px;
+    letter-spacing: 0.03em;
+    color: #192437;
+}
+  .contact-num{
+    letter-spacing: 0.03em;
+    color: #192437;
+    font-family: 'AvertaStd-Light';
+    font-size: 6px;
+    line-height: 4px;
+  }
+  .underline-two{
+    height: 1px;
+    background: #C4C4C4;
+    margin: 6px 0px;
+    width: 100%;
+  }
+  .opening-hours{
+    font-family: 'AvertaStd-Regular';
+    font-size: 7px;
+    line-height: 12px;
+    letter-spacing: 0.03em;
+    color: #192437;
+  }
+  .timings{
+    letter-spacing: 0.03em;
+    color: #192437;
+    font-family: 'AvertaStd-Light';
+    font-size: 5px;
+    line-height: 5px;
+    font-weight: 200;
+  }
+ 
+  .user{
+    background: url(./images/user.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 18px;
+    width: 18px;
+    margin: 3px;
+    position: absolute;
+    
+}
+
+  .email{
+    background: url(./images/email.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 18px;
+    width: 18px;
+    margin: 3px;
+    position: absolute;
+  }
+  .phone{
+    background: url(./images/phone.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 18px;
+    width: 18px;
+    margin: 3px;
+    position: absolute;
+  }
+  .message{
+    background: url(./images/message.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 18px;
+    width: 18px;
+    margin: 3px;
+    position: absolute;
+  }
+
+  .form1{
+    position: absolute;
+    top: 44px;
+  }
+  .form1>input{
+    padding-left: 24px;
+    width: 100px;
+  }
+  .form2{
+    position: absolute;
+    top: 67px;
+  }
+  .form2>input{
+    padding-left: 24px;
+    width: 100px;
+  }
+
+  .form3{
+    position: absolute;
+    top: 89px;
+  }
+  .form3>input{
+    padding-left: 24px;
+    width: 100px;
+  }
+
+  .form4{
+    position: absolute;
+    top: 112px;
+  }
+  .form4>input{
+    padding-left: 24px;
+    width: 100px;
+    height: 30px;
+  }
+
+
+  /* ----------Footer------------ */
+
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 2px solid lightblue; */
+    position: absolute;
+    top: 1268px;
+    width: 100%;
+    padding: 19px;
+    box-sizing: border-box;
+    font-size: 10px;
+    background: black;
+    color: white;
+  }
+
+  .second-row{
+    display: flex;
+    font-size: 6.5px;
+}
+
+.first-ul{
+  padding-left: 12px;
+}
+.second-ul{
+  padding-left: 17px;
+}
+  .third-col{
+    padding-left: 15px;
+    font-size: 8px;
+}
